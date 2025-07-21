@@ -9,19 +9,25 @@ pipeline {
 
         stage ("Build") {
             steps {
-                echo ("Hello Pipeline")
+                echo ("Hello test 1")
+                echo ("Hello test 2")
+                echo ("Hello test 3")
             }
         }
 
         stage("Test") {
             steps {
-                echo("Hello Test")
+                echo("Hello bd 1")
+                echo ("Hello build 2")
+                echo ("Hello build 3")
             }
         }
 
         stage("Deploy") {
             steps{
-                echo("Hello Deploy")
+                echo("Hello Deploy 1")
+                echo("Hello Deploy 2")
+                echo("Hello Deploy 3")
             }
         }
     }
