@@ -5,12 +5,28 @@ pipeline {
         }
     }
     stages {
-        stage ("Hello") {
+
+
+        stage ("Build") {
             steps {
                 echo ("Hello Pipeline")
             }
         }
+
+        stage("Test") {
+            steps {
+                echo("Hello Test")
+            }
+        }
+
+        stage("Deploy") {
+            steps{
+                echo("Hello Deploy")
+            }
+        }
     }
+
+    
 
     post {
         always {
