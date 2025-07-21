@@ -10,7 +10,7 @@ pipeline {
         stage ("Build") {
             steps {
                 echo ("Hello test 1")
-                sleep(10)
+                sleep(5)
                 echo ("Hello test 2")
                 echo ("Hello test 3")
             }
