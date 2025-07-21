@@ -27,7 +27,7 @@ pipeline {
 
         stage("Deploy") {
             steps{
-                echo("Hello Deploy 1")\
+                echo("Hello Deploy 1")
                 sleep(5)
                 echo("Hello Deploy 2")
                 echo("Hello Deploy 3")
